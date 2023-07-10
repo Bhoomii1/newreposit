@@ -38,7 +38,7 @@ jobs:
         run: pwd
       - name: build
         run: echo mvn -B package --file pom.xml
-      - name: list environment
+      - name: list env
         run: env
       - name: perform task
         run: sh script.sh
