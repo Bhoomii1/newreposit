@@ -36,6 +36,8 @@ jobs:
         run: javac Test.java
       - name: Listing
         run: pwd
+      - name: execute
+        run: java Test
       - name: build
         run: echo mvn -B package --file pom.xml
       - name: list env
